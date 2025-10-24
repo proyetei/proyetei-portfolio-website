@@ -19,7 +19,7 @@ export default function Intro(){
             <div className="flex flex-col gap-4 items-center justify-center">
                 <div className={`${subTitle.className} flex flex-row items-end text-3xl gap-3 my-4`}> Hi, I&apos;m <CustomText text="PROYETEI"/> </div>
                 <p className="md:text-2xl text-lg dark:text-indigo-400 text-blue-700 font-semibold"> Efficient problem solver and self-starter, seasoned in fast-paced working environments </p>
-                <p className="md:text-xl text-sm my-4">I am a <span className="dark:text-blue-400 text-blue-700"> 4th year Computer Science </span> student at <span className="dark:text-blue-400 text-blue-700"> McMaster University </span>, graduating in Sep 2025.
+                <p className="md:text-xl text-sm my-4">I am a <span className="dark:text-blue-400 text-blue-700">Computer Science graduate</span> from <span className="dark:text-blue-400 text-blue-700"> McMaster University </span>.
                 I have contributed to major feature launches <span className="dark:text-blue-400 text-blue-700"> impacting 200K+ people </span> and automating systems in customer-facing consoles with high traffic.</p>
             </div>
             <div className="flex items-center justify-center ">

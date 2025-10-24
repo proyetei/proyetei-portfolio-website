@@ -32,16 +32,6 @@ export const CanadaPostData = {
 };
 
 
-export const LumoseMarketplaceData = {
-    image: "",
-    logo:"/lumose_marketplace_logo.jpeg",
-    jobTitle: "Web developer",
-    company: "Lumose Marketplace",
-    date: "Aug, 2022 - Sep 2022",
-    type: "Contract Part-time",
-    bulletpoints: ["Built the about us and landing page with React, Node.js, Typescript and Tailwind CSS"]
-}
-
 
 export const ViewingPartyData = {
     image: "",
@@ -58,7 +48,7 @@ export const CSSData = {
     logo:"/css-logo.jpeg",
     jobTitle: "Director of Marketing",
     company: "McMaster Computer Science Society",
-    date: "Apr 2022 - Present",
+    date: "Apr 2022 - Aug 2025",
     type: "Contract Part-time",
     bulletpoints: ["Public relations and cross-team collaboration: Reaching out, emailing and communicating to executives from 10+ different clubs and promoting various events", "Leadership: Coordinating the Graphic Design and Social Media team for the distribution and design of promotional material, handling from development to execution"]
 }

@@ -1,13 +1,12 @@
 import { subTitle } from "@/fonts/font";
 import TitleText from "./TitleText";
-import { adpData, CanadaPostData, LumoseMarketplaceData, TDdata, ViewingPartyData, CSSData } from "@/lib/data";
+import { adpData, CanadaPostData, TDdata, ViewingPartyData, CSSData } from "@/lib/data";
 import {Divider} from "@nextui-org/divider";
 import JobCard from "./JobCardBoilerplate";
 const allCompanyData = [
   adpData,
   TDdata,
   CanadaPostData,
-  LumoseMarketplaceData,
   ViewingPartyData,
   CSSData,
 ];
