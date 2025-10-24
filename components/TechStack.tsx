@@ -2,7 +2,7 @@ import { FC } from 'react';
 import { IconType } from 'react-icons';
 import { FaJava, FaPython, FaReact, FaDocker } from 'react-icons/fa';
 import { FaGolang } from 'react-icons/fa6';
-import { SiC, SiNextdotjs, SiKubernetes, SiAngular, SiSpringboot, SiTypescript, SiJavascript, SiMongodb, SiMysql, SiGraphql, SiFlask, SiSelenium, SiCucumber, SiPostman, SiAwsamplify, SiFirebase, SiGooglecloud, SiPostgresql } from 'react-icons/si';
+import { SiC, SiNextdotjs, SiKubernetes, SiMicrosoftazure, SiAngular, SiSpringboot, SiTypescript, SiJavascript, SiCsharp, SiDotnet, SiMongodb, SiMysql, SiGraphql, SiFlask, SiSelenium, SiCucumber, SiPostman, SiAwsamplify, SiFirebase, SiGooglecloud, SiPostgresql } from 'react-icons/si';
 interface TechStackItem {
     name: string;
     icon: IconType;
@@ -11,16 +11,18 @@ interface TechStackItem {
 const techStacks: Record<string, TechStackItem[]> = {
     languages: [
         { name: 'Java', icon: FaJava },
-        { name: 'Python', icon: FaPython },
-        { name: 'C', icon: SiC },
-        { name: 'Go', icon: FaGolang },
-        { name: 'Typescript', icon: SiTypescript },
         { name: 'Javascript', icon: SiJavascript },
+        { name: 'Python', icon: FaPython },
+        { name: 'Go', icon: FaGolang },
+        { name: 'C', icon: SiC },
+        { name: 'C#', icon: SiCsharp },
+        
     ],
     frameworks: [
         { name: 'Next.js', icon: SiNextdotjs },
         { name: 'React', icon: FaReact },
         { name: 'Angular', icon: SiAngular },
+        { name: '.NET Framework', icon: SiDotnet },
         { name: 'Spring Boot', icon: SiSpringboot },
         { name: 'Flask', icon: SiFlask},
         { name: 'Selenium', icon: SiSelenium },
@@ -37,7 +39,10 @@ const techStacks: Record<string, TechStackItem[]> = {
         { name: 'AWS S3', icon: SiAwsamplify },
         { name: 'Firebase', icon: SiFirebase },
         { name: 'GCP', icon: SiGooglecloud },
+        { name: 'Azure', icon: SiMicrosoftazure },
         { name: 'Kubernetes', icon: SiKubernetes }
+        
+
     ],
 };
 
